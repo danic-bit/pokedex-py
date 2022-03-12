@@ -1,6 +1,5 @@
-from get_module import get_info
-
 #modulo obtiene informacion del etapa preevolucion del pokemon
+
 import random
 from get_module import get_info
 
@@ -22,3 +21,7 @@ def obtener_comentarios(pok_n):
     print(pok_comentario)
 
     return pok_comentario
+
+if __name__ == '__main__':
+    url_previa = f"https://pokeapi.co/api/v2/pokemon-species/25"
+    print(obtener_comentarios(25))
