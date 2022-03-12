@@ -12,6 +12,6 @@ El proyecto incluye la renderización de:
 -Tipo
 -Comentario, mensaje en español y aleatorio
 -Indicadores de combate (super eficaz contra, debil contra, resistente contra, poco eficiente contra, inmune contra, ineficaz contra, etc).
-Renderización condicionada a las caractéristicas de cada pokemon, según su tipo. Si no posee algunos de estos indicadores, no aparece la etiqueta ni el tipo.
+Renderización condicionada a las caractéristicas de cada pokemon, según su tipo. Si no posee algunos de estos indicadores, no aparece la etiqueta ni el tipo (ej. Magmar no tiene el indicador "ineficiente contra")
 
 Incluye modularización: validacion, generacion span, generacion comentarios, obtencion etapa previa, entre otros.
