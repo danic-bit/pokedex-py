@@ -13,3 +13,7 @@ def genera_span(lista):
         item_es = diccionario_es.get(item)
         span_str = span_str + f'<span class="label {item}">{item_es}</span>'
     return span_str
+
+if __name__ == '__main__':
+    lista01 = ['fire', 'ground', 'steel']
+    print(genera_span(lista01))
