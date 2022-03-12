@@ -18,8 +18,7 @@ def obtener_comentarios(pok_n):
             filtro.append(item["flavor_text"].replace("\n"," "))  #("\n"," ")se sustiyue el salto de linea por espacio en blanco
 
     pok_comentario = random.choice(filtro)
-    print(pok_comentario)
-
+   
     return pok_comentario
 
 if __name__ == '__main__':
